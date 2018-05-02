@@ -1,0 +1,32 @@
+{
+  "displayName": "Handy JS Snippets",
+  "name": "Handy-JS-Snippets",
+  "publisher": "sesamechicken",
+  "repository": "https://github.com/sesamechicken/code-snippets",
+  "description": "Snippets for higher productivity",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "0.10.x"
+  },
+  "icon": "img/icon.jpg",
+  "categories": ["Snippets"],
+  "contributes": {
+    "snippets": [{
+        "language": "javascript",
+        "path": "./snippets/javascript.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/javascript.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/javascript.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/javascript.json"
+      }
+    ]
+  }
+}

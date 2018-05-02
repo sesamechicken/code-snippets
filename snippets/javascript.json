@@ -1,0 +1,34 @@
+{
+  "Console.log a var as itself": {
+    "prefix": "log",
+    "body": [
+      "console.log('$1 :', $1);"
+    ],
+    "description": "Console.log a var as itself"
+  },
+  "Console log marker": {
+    "prefix": "here",
+    "body": [
+      "console.log('***** Here! -> line #${TM_LINE_NUMBER} in ${TM_DIRECTORY}/${TM_FILENAME} *****');"
+    ],
+    "description": "Console.log a ** here ** message"
+  },
+  "Jest scaffold": {
+    "prefix": "jester",
+    "body": [
+      "describe('$1', () => {",
+      "\tit('should...$2', () => {",
+      "\t\t$3// test",
+      "\t});",
+      "});"
+    ],
+    "description": "Creates a describe/it block for Jest"
+  },
+    "Console table": {
+      "prefix": "tabl",
+      "body": [
+       "console.table($1);"
+      ],
+      "description": "Creates a describe/it block for Jest"
+    }
+}
