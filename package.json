@@ -2,8 +2,20 @@
   "displayName": "Handy JS Snippets",
   "name": "Handy-JS-Snippets",
   "publisher": "sesamechicken",
-  "repository": "https://github.com/sesamechicken/code-snippets",
+  "author": {
+    "name": "sesamechicken"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/sesamechicken/code-snippets/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sesamechicken/code-snippets.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sesamechicken/code-snippets/issues"
+  },
   "description": "Snippets for higher productivity",
+  "keywords": ["snippets, jest, log, console, handy, productivity, sesamechicken"],
   "version": "1.0.0",
   "engines": {
     "vscode": "0.10.x"

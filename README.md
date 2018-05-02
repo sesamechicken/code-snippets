@@ -2,8 +2,7 @@
 
 Some often used shortcuts by the team.
 
-## Available shortcuts
-
+# console variants
 - `log`
 
 Cursor position is located at pipes. Nice for logging `thing: thing`.
@@ -20,9 +19,19 @@ Great for just marking which line number in which file you've placed this.
 console.log('***** Here! -> line #XXX in DIR/FILENAME *****');
 ```
 
+- `tabl`
+
+Console log table for a variable. 
+
+```javascript
+console.table()
+```
+
+# testing
+
 - `jester`
 
-Quickly scaffold out test describe block with `it` statement.
+Quickly scaffold out a test `describe` block with `it` statement.
 You may TAB through this code to traverse describe, it, and `//test`.
 
 ```javascript
@@ -33,13 +42,6 @@ describe('', () => {
 });
 ```
 
-## Installation
-
-- Toggle the command palette (⌘ ⇧ p) and start typing `vsix`. 
-- Select the command  `Extensions: Install from VSIX`. 
-- Choose the location of the .vsix file.
-- Allow the window to reload
-
 ## Contributing
 
-Please do! PR's would be good, but I doubt anyone will ever read/see this, anyway.
+Please do!
