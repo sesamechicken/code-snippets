@@ -6,7 +6,7 @@
     "name": "sesamechicken"
   },
   "license": "MIT",
-  "homepage": "https://github.com/sesamechicken/code-snippets/README.md",
+  "homepage": "https://github.com/sesamechicken/code-snippets/blob/master/README.md",
   "repository": {
     "type": "git",
     "url": "https://github.com/sesamechicken/code-snippets.git"
@@ -16,7 +16,7 @@
   },
   "description": "Snippets for higher productivity",
   "keywords": ["snippets, jest, log, console, handy, productivity, sesamechicken"],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "engines": {
     "vscode": "0.10.x"
   },
