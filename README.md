@@ -27,6 +27,21 @@ Console log table for a variable.
 console.table()
 ```
 
+# format
+
+- `stringy`  
+For getting a formatted json object stringified for display in the console or UI. Cursor will be ready for you to enter the variable to stringify.
+
+```javascript
+JSON.stringify(your_var, null, 2)
+```
+
+Console log table for a variable. 
+
+```javascript
+console.table()
+```
+
 # testing
 
 - `jester`
