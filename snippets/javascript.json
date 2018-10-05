@@ -27,8 +27,15 @@
     "Console table": {
       "prefix": "tabl",
       "body": [
-       "console.table($1);"
+        "console.table($1);"
       ],
       "description": "Creates a describe/it block for Jest"
+    },
+    "JSON stringify": {
+      "prefix": "stringy",
+      "body": [
+        "JSON.stringify($1, null, 2)"
+      ],
+      "description": "Creates a formatted stringified JSON block"
     }
 }
